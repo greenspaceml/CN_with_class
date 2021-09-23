@@ -1,0 +1,32 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+  text-align: left;
+}
+
+ul,
+li {
+  padding: 0px !important;
+  list-style: none;
+}
+
+.ta-center {
+  text-align: center;
+}
+.ta-left {
+  text-align: left;
+}
+div > table {
+  margin: auto;
+  width: 100%;
+}
