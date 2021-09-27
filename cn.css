@@ -1,17 +1,17 @@
-body {
+main {
   width: 500px;
   margin: 0 auto;
 }
 
 table,
-td {
+td,
+th {
   border: 1px solid black;
   border-collapse: collapse;
 }
 
 td {
   padding: 5px;
-  text-align: left;
 }
 
 ul,
@@ -20,13 +20,21 @@ li {
   list-style: none;
 }
 
-.ta-center {
+.text-center {
   text-align: center;
 }
-.ta-left {
-  text-align: left;
-}
-div > table {
+table {
   margin: auto;
   width: 100%;
+}
+
+a {
+  display: block;
+  text-align: center;
+}
+
+th {
+  font-weight: normal;
+  text-align: left;
+  padding: 5px;
 }
